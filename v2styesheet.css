@@ -1,0 +1,99 @@
+p {
+  color: purple;
+  font-size: 20px;
+}
+h1 {
+   color:tomato;
+   font-size: 100px;
+   font-family: 'Luckiest Guy', cursive;
+}
+.heading {
+  margin-top: 0;
+}
+.container{
+  margin: auto;
+  width: 700px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #FFCC00;
+  text-align: justify;
+}
+
+#myHeader{
+  background-color: lightGray;
+  color: tomato;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.warningnote {
+  color:red;
+}
+.formbox{
+  border: 5px solid tomato;
+  padding: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 15px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
